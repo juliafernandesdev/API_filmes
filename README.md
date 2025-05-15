@@ -78,13 +78,13 @@ omdb.apiKey=SUA_CHAVE_AQUI
 ```
 
 ### 5. Acesse a API
-- Localhost: http://localhost:8080/filmes
+- Localhost: http://localhost:8080/ApiFilmes/filmes
 
 ---
 
 ## ✅ Exemplo com `curl`
 ```bash
-curl -X POST http://localhost:8080/filmes \
+curl -X POST http://localhost:8080/ApiFilmes/filmes \
      -H 'Content-Type: application/json' \
      -d '{"titulo": "Inception"}'
 ```
