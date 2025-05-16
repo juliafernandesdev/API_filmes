@@ -18,7 +18,7 @@ Esta é uma aplicação Spring Boot que permite buscar informações de filmes n
 ## 📦 Funcionalidades
 
 - Buscar filme por título na OMDb e salvar no banco de dados
-- Listar todos os filmes (com paginação)
+- Listar todos os filmes
 - Buscar filme por ID
 - Deletar filme por ID
 ---
